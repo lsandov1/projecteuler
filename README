@@ -1,5 +1,16 @@
-This is a repository of my solucions of projecteuler problems which are found on
+My solutions for http://projecteuler.net/ problems.
 
-http://projecteuler.net/
+To run them,
 
-Problems are solved in haskell or ruby.
+* Download J interpreter (http://www.jsoftware.com)
+
+* Open a J console session
+
+* Set this variable
+    F =: './j/<problem number>.ijs'
+
+* Load the script
+    
+    0!:1 < F
+
+* Last step shows instructions on how to execute the defined function
